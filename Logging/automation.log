@@ -1,0 +1,57 @@
+2024-03-07 08:55:15,929:INFO:This is info logger
+2024-03-07 08:55:15,929:WARNING:This is warning logger
+2024-03-07 08:55:15,929:ERROR:This is error logger
+2024-03-07 08:55:15,929:CRITICAL:This is critical logger
+2024-03-07 08:55:15,929:INFO:This is info2 logger
+2024-03-07 08:55:15,929:ERROR:This is error2 logger
+2024-03-07 08:55:32,960:INFO:This is info logger
+2024-03-07 08:55:32,960:WARNING:This is warning logger
+2024-03-07 08:55:32,960:ERROR:This is error logger
+2024-03-07 08:55:32,960:CRITICAL:This is critical logger
+2024-03-07 08:55:32,960:INFO:This is info2 logger
+2024-03-07 08:55:32,960:ERROR:This is error2 logger
+2024-03-07 08:55:40,462:INFO:This is info logger
+2024-03-07 08:55:40,462:WARNING:This is warning logger
+2024-03-07 08:55:40,463:ERROR:This is error logger
+2024-03-07 08:55:40,463:CRITICAL:This is critical logger
+2024-03-07 08:55:40,463:INFO:This is info2 logger
+2024-03-07 08:55:40,463:ERROR:This is error2 logger
+2024-03-07 08:55:43,999:INFO:This is info logger
+2024-03-07 08:55:43,999:WARNING:This is warning logger
+2024-03-07 08:55:43,999:ERROR:This is error logger
+2024-03-07 08:55:43,999:CRITICAL:This is critical logger
+2024-03-07 08:55:43,999:INFO:This is info2 logger
+2024-03-07 08:55:43,999:ERROR:This is error2 logger
+2024-03-07 08:55:53,503:INFO:This is info logger
+2024-03-07 08:55:53,503:WARNING:This is warning logger
+2024-03-07 08:55:53,503:ERROR:This is error logger
+2024-03-07 08:55:53,503:CRITICAL:This is critical logger
+2024-03-07 08:55:53,503:INFO:This is info2 logger
+2024-03-07 08:55:53,503:ERROR:This is error2 logger
+2024-03-07 08:56:12,993:CRITICAL:This is critical logger
+2024-03-07 08:56:17,625:CRITICAL:This is critical logger
+2024-03-07 09:02:59,037:ERROR:This is error logger:47
+2024-03-07 09:02:59,037:CRITICAL:This is critical logger:48
+2024-03-07 09:02:59,038:ERROR:This is error2 logger:50
+2024-03-07 09:03:41,357:ERROR:This is error logger:47-logging3.py
+2024-03-07 09:03:41,357:CRITICAL:This is critical logger:48-logging3.py
+2024-03-07 09:03:41,357:ERROR:This is error2 logger:50-logging3.py
+2024-03-07 09:04:20,150:ERROR:This is error logger:47-logging3.py-<module>
+2024-03-07 09:04:20,150:CRITICAL:This is critical logger:48-logging3.py-<module>
+2024-03-07 09:04:20,150:ERROR:This is error2 logger:50-logging3.py-<module>
+2024-03-07 09:04:46,955:INFO:file has been read successfully path:30-logging3.py-read
+2024-03-07 09:04:46,955:WARNING:file has been read successfully but count 0 path:33-logging3.py-read
+2024-03-07 09:04:46,955:INFO:This is info logger:45-logging3.py-<module>
+2024-03-07 09:04:46,955:WARNING:This is warning logger:46-logging3.py-<module>
+2024-03-07 09:04:46,955:ERROR:This is error logger:47-logging3.py-<module>
+2024-03-07 09:04:46,955:CRITICAL:This is critical logger:48-logging3.py-<module>
+2024-03-07 09:04:46,955:INFO:This is info2 logger:49-logging3.py-<module>
+2024-03-07 09:04:46,955:ERROR:This is error2 logger:50-logging3.py-<module>
+2024-03-07 09:06:18,220:INFO:file has been read successfully path:30-logging3.py-read
+2024-03-07 09:06:18,220:WARNING:file has been read successfully but count 0 path:33-logging3.py-read
+2024-03-07 09:06:18,220:INFO:This is info logger:45-logging3.py-<module>
+2024-03-07 09:06:18,220:WARNING:This is warning logger:46-logging3.py-<module>
+2024-03-07 09:06:18,220:ERROR:This is error logger:47-logging3.py-<module>
+2024-03-07 09:06:18,220:CRITICAL:This is critical logger:48-logging3.py-<module>
+2024-03-07 09:06:18,220:INFO:This is info2 logger:49-logging3.py-<module>
+2024-03-07 09:06:18,220:ERROR:This is error2 logger:50-logging3.py-<module>
