@@ -10,8 +10,8 @@ print("the value of b ", b)
 
 print("Addition of a & b ", a+b)
 print("Minus of a & b ", a-b)
-print("Mul of a and b", a*b)
-print("division of a/b", a/b)
+print("Mul of a and b", a*b) # a & b multiplicants and a is multiplier
+print("division of a/b", a/b) # a is dividend and b is diviser, result is quotient, remainder
 print("floor division of a/b ", a//b)
 print("Modulo of a and b", a%b)
 print(" a Power b", a**b)

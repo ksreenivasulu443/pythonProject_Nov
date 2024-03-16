@@ -31,7 +31,7 @@ def read_db():
     mssql_df = spark.read \
         .format("jdbc") \
         .option("url", url) \
-        .option("dbtable", table_name) \
+        .option("query", source_query) \
         .option("user", username) \
         .option("password", password ) \
         .option("driver",'com.microsoft.sqlserver.jdbc.SQLServerDriver')\

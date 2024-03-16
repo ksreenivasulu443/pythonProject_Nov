@@ -17,13 +17,18 @@ columns=[desc[0] for desc in curs_cvp.description]
 data=curs_cvp.fetchall()
 Tables=pd.DataFrame(list(data),columns=columns)
 
+test_cases = pd.read_excel("excel path")
+
 #Count validation script
 
 def count_validation():
     dict_AWS = {}
     dict_CVP = {}
     error = ['']
-    for i in Tables['TABLE_NAME']:
+    for i in test_cases.iterows():
+        source_query= i['source']
+        target_query = i['target']
+        key_column = i['key_column']
         try:
             dsn_tns_cvp = cx_Oracle.makedsn(Cvp_Host_name, Cvp_Port,
                                             service_name=Cvp_Service_name)  # if needed, place an 'r' before any parameter in order to address any special character such as '\'.

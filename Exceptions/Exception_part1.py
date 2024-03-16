@@ -13,7 +13,7 @@ Author - Sreeni added date:02/Jan/2024 '''
 #     print("hello")
 
 a = 10
-b = 0
+b = 2
 #print(a/b)
 try:
     print(a+b)
@@ -34,3 +34,27 @@ except:
 finally:
     print("This is finally block")
 
+age = 5 #int(input('enter age'))
+
+try:
+    if age >= 18:
+        print("eligilble for vote")
+    elif 0 < age < 18:
+        print("Not eligible")
+    else:
+        raise ValueError("Age can not be null")
+except ValueError as Ve:
+    print("Invalid age", Ve)
+
+
+# Real-world scenario: Running out of memory while performing an operation
+# Example: Trying to allocate a large amount of memory
+# big_list = [0] * (10**9)
+# print(big_list)
+
+input("hi",)
+try:
+    if True:
+        print("syntax error")
+except SyntaxError as SE:
+    print("syntax error", SE)

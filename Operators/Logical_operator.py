@@ -14,10 +14,14 @@ a=10
 b=20
 c=30
 
-if a<b and a<c:
+if a<b and a<c: # True and True
     print(" a is the smallest number")
 
-if a<b or a>c:
+
+a=10
+b=20
+c=30
+if a<b or a>c: #True or False
     print("a is less than b")
 else:
     print("both conditions false")
